@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="style.css"> 
+   <title>Data Recording</title>
+ </head>
+ <body>
+    <header>
+         <h1>The Heart of Delivery</h1>
+         <p>Record Customer Data for Seamless Delivery Experiences</p>
+    </header>
+    <section class="info">
+       <form class="data">
+        <h1>Customer Data</h1>
+        <label>Name:
+            <input class="width" type="text" placeholder="Ahmed Omer Hasan">
+        </label>
+        <br>
+        <br>
+            <label class="radio" for="male">Male</label>
+            <input id="male" type="radio" name="male_or_female" value="Male">
+            <label class="radio" for="female">Female</label>
+            <input id="female" type="radio" name="male_or_female" value="Female">
+        <br>
+        <br>
+        <label>Phone Numder:
+            <input class="width" type="text" placeholder="+20">
+        </label>
+        <br>
+        <br>
+        <label>Another Number:
+            <input class="width" type="text">
+        </label>
+        <br>
+        <br>
+        <label>Email Address:
+            <input class="width" type="text" placeholder="@gmail.com">
+        </label>
+        <br>
+        <br>
+        <label>Address:
+            <input class="width" type="text">
+        </label>
+        <br>
+        <br>
+        <label>Payment Information: 
+           <select class="width" name="payment" id="info">
+            <option  value="0" selected disabled>Choose</option>
+            <option  value="ondelivery">On Delivery</option>
+            <option  value="creditcard">Credit Card</option>
+            <option  value="prepaid">Prepaid</option>
+            <option  value="another">Another</option>
+           </select>
+        </label>
+        <br>
+        <br>
+        <label class="check" for="check">Accept All Conditions</label>
+        <input id="check" type="checkbox" name="agree">
+        <br>
+        <br>
+        <button onclick="addbtn()" id="action-button">ADD</button>
+        <div id="message">DATA IS RECORDED</div>
+      </form>
+  </section>
+      <footer>
+         <p>&copy; Dynamic landing pege. All rights reserved</p>
+      </footer>
+     <script src="script.js"></script>
+ </body>
+</html>
+
+   
