@@ -33,21 +33,10 @@ This project is a simple, dynamic web application designed to collect and record
 2. No additional dependencies or frameworks are required. Simply open the `index.html` file in the browser. 🚀
 
 ## Preview 👀
-You can see how the form works by interacting with it directly on your local setup. Below is a sample screenshot of the application:
-
-![Project Preview](path-to-screenshot)
-
-## Link to Video 🎥
 [Watch it on YouTube](https://youtu.be/ZFaBA5wdDPE?si=84i5IjbSEe8Vorxm)
 
 ## Future Enhancements 🔮
 - Add backend integration to store and retrieve customer data. 📊
 - Implement validation for form fields to ensure data accuracy. ✅
 - Enhance UI/UX with animations and transitions. ✨
-
-## License 📜
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-Feel free to contribute or report issues to improve this project! 💡
 
